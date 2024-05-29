@@ -433,6 +433,7 @@ body {
   .navlinks {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -449,3 +450,16 @@ body {
   }
 }
 
+@media screen and (max-width:520px) {
+  .gallery-container-image2{
+    display: none;
+  }
+}
+@media screen and (max-width:450px) {
+  .contents-bottom-left img,
+  .contents-bottom-right img{
+    height: auto ;
+    width: 100%;
+  }
+  
+}
